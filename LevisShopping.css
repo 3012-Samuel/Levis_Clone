@@ -1,0 +1,386 @@
+body{
+    overflow-x: hidden;
+}
+#a{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(247, 248, 250);   
+}
+#aaa{
+    width: 40vh;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    position: relative;
+    top: 15px;
+}
+#a4{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 30px;
+    list-style: none;
+    color: rgb(108, 120, 120);
+}
+#b{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(201, 208, 222) ;
+}
+#bb{
+    width: 70vh;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    position: relative;
+    font-family: 'Helvetica-Now-Text-Light', Helvetica, Arial, sans-serif ;
+    top: 25px;
+    left: 30px;
+}
+#b1{
+    color:red;
+}
+#bbb{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+}
+/* #b2{
+    
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    position: relative;
+    bottom: 40px;
+    
+} */
+#c{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(228, 239, 239); 
+
+    
+      
+}
+#cc{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+    top: 20px;
+    
+}
+#d{
+    height: 80vh;
+    width: 100vw;
+    background-image: url("https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw15b11d13/images/homepage/Main%20Carousel/BrandCampaignDSK.jpg");
+    animation-name: image;
+    animation-duration: 10s;
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    animation-iteration-count: 20;
+}
+@keyframes image{
+    0%{
+        background-image: url("https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dwdfae6603/images/homepage/Main%20Carousel/DenimtearsDesktop.jpg");
+    }
+    50%{
+        background-image: url("https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dwc663d829/images/homepage/Main%20Carousel/BMSMRevisedDSK.jpg");
+    }
+    75%{
+        background-image: url("https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw671649d3/images/homepage/Main%20Carousel/NewArrivalsAugDSK.jpg");
+    }
+    100%{
+        background-image: url("https://www.levi.in/on/demandware.static/-/Sites-LeviIN-Library/en_IN/dw15b11d13/images/homepage/Main%20Carousel/BrandCampaignDSK.jpg");
+    }
+} 
+#f{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+#ff{
+    position: relative;
+    top: 5px;
+    right: 19px;
+}
+#ff1{
+    position: relative;
+    left: 90px;
+}
+#fff{
+    position: relative;
+    top: 5px;
+    left: 20px;  
+}
+#fff1{
+    position: relative;
+    left: 100px;
+}
+#f4{
+    position: relative;
+    right: 30px;
+}
+#f41{
+    position: relative;
+    left: 100px;
+}
+#g{
+    height: 50px;
+    width: 300px;
+    border: 2px solid black;
+    position: relative;
+    left: 650px;
+    top: 50px;
+}
+#gg{
+    position: relative;
+    top: 10px;
+    color: black;
+    left: 80px;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+#h{
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+#i{
+    position: relative;
+    top: 150px;
+    justify-content: center;
+}
+#j{
+    position: relative;
+    top: 200px;
+}
+#k{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#l{
+    font-size: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+#m{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    list-style: none;
+    top: 40px;
+    justify-content: center;
+    justify-content: space-around;
+}
+#mm{
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    border: 2px solid black;
+    position: relative;
+    left: 50px;
+    top: 30px;
+}
+#m1{
+    position: relative;
+    top: 10px;
+    list-style: none;
+    left: 90px;
+    color: black;
+    text-decoration: none;
+}
+#m2{
+    position: relative;
+    top: 10px;
+    list-style: none;
+    left: 30px;
+    color: black;
+    text-decoration: none;
+}
+#m3{
+    height: 300px;
+    position: relative;
+    top: 10px;
+    list-style: none;
+    left: 70px;
+    color: black;
+    text-decoration: none;
+}
+/* #n{
+    height: 900px;
+} */
+#o{
+    height: 100px;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(108, 120, 120);
+}
+#p{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(242, 254, 254);
+    font-size: 25px;
+}
+#p1{
+    height: 80px;
+    position: relative;
+    top: 50px;
+}
+/* #p2{
+    justify-content: center;
+    border: 2px solid white;
+} */
+#p3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+}
+#p4{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: white;
+}
+#p5{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: white;
+}
+/* #p6{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: white;
+} */
+#p7{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: rgb(17, 7, 7);
+    color: white;
+    position: relative;
+}
+#p8
+{
+    font-size: 25px;
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+}
+#p9{
+    position: relative;
+    top: 30px;
+    border: 1px solid rgb(18, 11, 11);
+
+}
+#p10{
+    position: relative;
+    top:40px ;
+}
+#p11{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+}
+/* #p12{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: white;
+}
+#p13{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: white;
+} */
+#p14{
+    height: 50px;
+    width: 300px;
+    border: 2px solid white;
+    background-color: rgb(17, 7, 7);
+    color: white;
+    position: relative;
+}
+#p15{
+    font-size: 25px;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+}
+#p16{
+    position: relative;
+    bottom: 250px;
+    border: 1px solid rgb(18, 11, 11);
+}
+#pp{
+    display: flex;
+    font-size: large;
+    list-style: none;
+    justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+}
+#pp1{
+    position: relative;
+    bottom: 250px;
+    left: 30px;  
+}
+#pp2{
+    position: relative;
+    bottom: 250px;
+    left: 30px;  
+}
+#pp3{
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+}
+#pp4{
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+}
+#pp5{
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+}
+#pp6{
+    position: relative;
+    bottom: 250px;
+    border: 1px solid rgb(18, 11, 11);
+}
+#pp7{
+    position: relative;
+    bottom: 270px;
+    justify-content: space-around;
+}
+#pp8{
+    position: relative;
+    bottom: 280px;
+    left: 860px; 
+}
